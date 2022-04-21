@@ -8,6 +8,8 @@ pipeline {
                     echo "Multiline shell steps works too OK"
                     ls -lah
                 '''
+                input "Does the staging environment look ok?"
+            
             }
         }
     }
